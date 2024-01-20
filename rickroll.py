@@ -6,7 +6,7 @@ import time
 import threading
 
 IMAGE_FRAMES = [f"/home/pi/vector-python-sdk/wirepod/assets/rickroll/{i}.gif" for i in range(1, 47)]
-SOUND_PATH = "/home/pi/vector-python-sdk/wirepod/assets/rickroll.wav"
+SOUND_PATH = "/home/pi/vector-python-sdk/wirepod/assets/rickroll/rickroll.wav"
 
 # Shared variable to signal lift motor thread to exit
 stop_lift_thread = False
