@@ -15,16 +15,15 @@ Before you begin, make sure you have the following prerequisites:
 
 Connect to the Vectorx server using your preferred SSH client.
 
-```bash
-ssh user@vectorx-server
-Step 2: Initial Configuration
+### Step 2: Initial Configuration
 Navigate to the vector-python-sdk directory and run the configuration script.
 
 bash
-Copy code
 cd /home/pi/vector-python-sdk/
+
 python3 configure.py
-Step 3: Copy Assets and Script
+
+### Step 3: Copy Assets and Script
 Move to the wirepod directory and copy the assets folder and rickroll.py file.
 
 bash
