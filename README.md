@@ -20,10 +20,6 @@ Connect to the Vectorx server using your preferred SSH client.
 ### Step 2: Initial Configuration
 Navigate to the vector-python-sdk directory and run the configuration script.
 
-cd /home/pi/vector-python-sdk/wirepod/
-cp -r /path/to/assets .
-cp /path/to/rickroll.py .
-
 ```bash
 cd /home/pi/vector-python-sdk/
 ```
