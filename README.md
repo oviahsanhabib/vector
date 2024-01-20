@@ -18,7 +18,7 @@ Connect to the Vectorx server using your preferred SSH client.
 ### Step 2: Initial Configuration
 Navigate to the vector-python-sdk directory and run the configuration script.
 
-bash
+```bash
 cd /home/pi/vector-python-sdk/
 
 python3 configure.py
@@ -26,18 +26,15 @@ python3 configure.py
 ### Step 3: Copy Assets and Script
 Move to the wirepod directory and copy the assets folder and rickroll.py file.
 
-bash
-Copy code
+```bash
 cd /home/pi/vector-python-sdk/wirepod/
-cp -r /path/to/assets .
-cp /path/to/rickroll.py .
-Step 4: Run the Script
+
+### Step 4: Run the Script
 Execute the rickroll.py script.
 
-bash
-Copy code
+```bash
 ./rickroll.py
-Step 5: Add Custom Intent
+### Step 5: Add Custom Intent
 Follow the provided screenshot to add a custom intent for voice commands.
 
 
