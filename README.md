@@ -26,7 +26,7 @@ cp /path/to/rickroll.py .
 cd /home/pi/vector-python-sdk/
 
 python3 configure.py
-exit 0
+```bash
 ### Step 3: Copy Assets and Script
 Move to the wirepod directory and copy the assets folder and rickroll.py file.
 
